@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9bccb814b0d8f5342bb569a33a8fbf4d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183370
+  packageName: Feel
+  packageVersion: 5.8
+  assetPath: Assets/Feel/FeelDemos/Tactical/Materials/FeelTacticalSmokeMaterial.mat
+  uploadId: 799856

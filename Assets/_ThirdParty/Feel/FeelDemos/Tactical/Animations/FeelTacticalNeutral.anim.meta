@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 71f94f0d1e9faf44ba4443f4b8725663
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183370
+  packageName: Feel
+  packageVersion: 5.8
+  assetPath: Assets/Feel/FeelDemos/Tactical/Animations/FeelTacticalNeutral.anim
+  uploadId: 799856

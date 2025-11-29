@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 705c83775db5128488e9b55305d5fdb4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183370
+  packageName: Feel
+  packageVersion: 5.8
+  assetPath: Assets/Feel/FeelDemos/Tactical/Animations/FeelTacticalAvatarMask.mask
+  uploadId: 799856
