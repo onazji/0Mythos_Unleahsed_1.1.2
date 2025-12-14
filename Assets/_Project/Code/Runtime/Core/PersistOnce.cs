@@ -1,11 +1,23 @@
 using UnityEngine;
+
+[DisallowMultipleComponent]
 public class PersistOnce : MonoBehaviour
 {
-    private static PersistOnce _instance;
     private void Awake()
     {
-        if (_instance != null && _instance != this) { Destroy(gameObject); return; }
-        _instance = this;
+        // Find all objects of this type in the scene (including inactive ones)
+        var existing = FindObjectsOfType<PersistOnce>(true);
+
+        // If another object with the same name exists, destroy this duplicate
+        foreach (var instance in existing)
+        {
+            if (instance != this && instance.name == name)
+            {
+                Destroy(gameObject);
+                return;
+            }
+        }
+
         DontDestroyOnLoad(gameObject);
     }
 }

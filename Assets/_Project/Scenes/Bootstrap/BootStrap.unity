@@ -165,6 +165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 149838771}
   - component: {fileID: 149838772}
+  - component: {fileID: 149838773}
   m_Layer: 0
   m_Name: InputManager
   m_TagString: Untagged
@@ -215,6 +216,18 @@ MonoBehaviour:
   SmoothMovement: 1
   Threshold: {x: 0.1, y: 0.4}
   RotateInputBasedOnCameraDirection: 0
+--- !u!114 &149838773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149838770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!850595691 &251508782
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -476,6 +489,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 501634019}
+  - component: {fileID: 501634020}
   m_Layer: 0
   m_Name: HUDCanvas_Persistent
   m_TagString: Untagged
@@ -502,6 +516,18 @@ Transform:
   - {fileID: 671725598}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &501634020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501634018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &622021429
 Mesh:
   m_ObjectHideFlags: 0
@@ -848,6 +874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 671725598}
   - component: {fileID: 671725599}
+  - component: {fileID: 671725600}
   m_Layer: 0
   m_Name: FadePanel
   m_TagString: Untagged
@@ -882,6 +909,21 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &671725600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671725597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baec3b27d8ad58b4cac0f228acfdc8ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fadeGroup: {fileID: 671725599}
+  _fadeDuration: 0.8
+  _delayBeforeFadeOut: 0.25
 --- !u!1 &720973751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1337,6 +1379,7 @@ GameObject:
   - component: {fileID: 935667657}
   - component: {fileID: 935667656}
   - component: {fileID: 935667658}
+  - component: {fileID: 935667659}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1388,6 +1431,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7dfde18257cdbeb4d978f4f979518a33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &935667659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935667655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &995703701
@@ -1815,6 +1870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1465282399}
   - component: {fileID: 1465282400}
+  - component: {fileID: 1465282401}
   m_Layer: 0
   m_Name: SceneTransit
   m_TagString: Untagged
@@ -1849,6 +1905,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d14c85342ef1a47b360f1e9e4de84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1465282401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465282398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1528987432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,6 +1926,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1528987433}
+  - component: {fileID: 1528987434}
   m_Layer: 0
   m_Name: MainCameraRig
   m_TagString: Untagged
@@ -1882,6 +1951,18 @@ Transform:
   - {fileID: 1703769774}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1528987434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528987432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1682546060
 GameObject:
   m_ObjectHideFlags: 0
@@ -1976,6 +2057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1734572837}
   - component: {fileID: 1734572836}
+  - component: {fileID: 1734572838}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -2014,6 +2096,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1734572838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734572835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1940791664
 GameObject:
   m_ObjectHideFlags: 0

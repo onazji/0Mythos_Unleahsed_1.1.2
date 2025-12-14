@@ -140,5 +140,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/Bootstrap/BootStrap.unity
     guid: e3f203cd0905a7642b725ece2da57ce8
+  - enabled: 1
+    path: Assets/_Project/Scenes/MainMenu/MainMenu.unity
+    guid: 23877f28aae501d48829dd9218d9c98f
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
