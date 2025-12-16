@@ -1125,8 +1125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a49c78de5712654597fc038dfd0c7a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextSceneName: MuseumHub_WindWard
-  LoadDelay: 0.5
+  nextSceneName: MuseumHub_WindWard
+  fadeController: {fileID: 0}
 --- !u!225 &963841656
 CanvasGroup:
   m_ObjectHideFlags: 0

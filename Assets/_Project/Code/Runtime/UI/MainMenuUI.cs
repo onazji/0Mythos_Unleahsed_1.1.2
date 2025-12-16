@@ -1,42 +1,43 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Mythos.Unleashed.Runtime.UI; // For SceneFadeController
+using Mythos.Unleashed.Runtime.UI;
 
 public class MainMenuUI : MonoBehaviour
 {
     [Header("Scene Settings")]
-    public string NextSceneName = "MuseumHub_WindWard";
-    public float LoadDelay = 0.5f;
+    [SerializeField] private string nextSceneName = "MuseumHub_WindWard";
 
-    [Header("Fade Settings")]
-    private SceneFadeController _fadeController;
+    [Header("Fade Reference (Optional)")]
+    [SerializeField] private SceneFadeController fadeController;
+
+    private bool _isLoading;
 
     private void Awake()
     {
-        // Try to find fade controller in the persistent Bootstrap scene
-        if (_fadeController == null)
-        {
-            _fadeController = FindObjectOfType<SceneFadeController>(true);
-        }
+        // Automatically find the FadePanel in the persistent Bootstrap
+        if (fadeController == null)
+            fadeController = FindObjectOfType<SceneFadeController>(true);
     }
 
     public void StartGame()
     {
-        if (_fadeController != null)
+        if (_isLoading) return;
+        _isLoading = true;
+
+        if (fadeController != null)
         {
-            StartCoroutine(LoadWithFade());
+            fadeController.BeginFadeOut();
+            Invoke(nameof(LoadNextScene), 1.0f); // Wait for fade to complete
         }
         else
         {
-            Debug.LogWarning("[MainMenuUI] No fade controller found — loading instantly.");
-            SceneManager.LoadScene(NextSceneName);
+            Debug.LogWarning("[MainMenuUI] No FadeController found — loading immediately.");
+            LoadNextScene();
         }
     }
 
-    private System.Collections.IEnumerator LoadWithFade()
+    private void LoadNextScene()
     {
-        _fadeController.BeginFadeOut();
-        yield return new WaitForSecondsRealtime(LoadDelay);
-        SceneManager.LoadScene(NextSceneName);
+        SceneManager.LoadScene(nextSceneName);
     }
 }
