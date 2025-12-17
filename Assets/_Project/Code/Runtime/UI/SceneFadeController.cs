@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace Mythos.Unleashed.Runtime.UI
 {
@@ -17,7 +17,7 @@ namespace Mythos.Unleashed.Runtime.UI
 
         [Header("Fade Settings")]
         [SerializeField, Tooltip("Duration of fade in seconds.")]
-        private float _fadeDuration = 0.8f;
+        private float _fadeDuration = 1.0f;
 
         [SerializeField, Tooltip("Optional delay before fade out starts.")]
         private float _delayBeforeFadeOut = 0.25f;
@@ -30,39 +30,26 @@ namespace Mythos.Unleashed.Runtime.UI
                 Debug.LogWarning("[SceneFade] CanvasGroup reference missing.");
         }
 
-        //Onazji Drayden
-        //11/26/25
-        /// Public methods to initiate fade in/out
-        public void BeginFadeOut() => StartCoroutine(Fade(1f));
-        public void BeginFadeIn()  => StartCoroutine(Fade(0f));
-        ///
-        /// 
-        /// 
-
-
         private void OnEnable()
         {
-          //  SceneLoader.OnSceneLoadBegin += HandleSceneLoadBegin;
-           // SceneLoader.OnSceneLoadComplete += HandleSceneLoadComplete;
+            SceneManager.sceneLoaded += HandleSceneLoaded;
         }
 
         private void OnDisable()
         {
-            //SceneLoader.OnSceneLoadBegin -= HandleSceneLoadBegin;
-            //SceneLoader.OnSceneLoadComplete -= HandleSceneLoadComplete;
+            SceneManager.sceneLoaded -= HandleSceneLoaded;
         }
 
-        private void HandleSceneLoadBegin()
+        private void HandleSceneLoaded(Scene scene, LoadSceneMode mode)
         {
-            if (_fadeRoutine != null) StopCoroutine(_fadeRoutine);
-            _fadeRoutine = StartCoroutine(Fade(1f));
+            // Automatically fade in after scene load
+            if (_fadeRoutine != null)
+                StopCoroutine(_fadeRoutine);
+            _fadeRoutine = StartCoroutine(Fade(0f, 0.25f));
         }
 
-        private void HandleSceneLoadComplete()
-        {
-            if (_fadeRoutine != null) StopCoroutine(_fadeRoutine);
-            _fadeRoutine = StartCoroutine(Fade(0f, _delayBeforeFadeOut));
-        }
+        public void BeginFadeOut() => StartCoroutine(Fade(1f));
+        public void BeginFadeIn() => StartCoroutine(Fade(0f));
 
         private IEnumerator Fade(float target, float delay = 0f)
         {
