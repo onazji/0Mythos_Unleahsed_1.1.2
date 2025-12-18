@@ -1,32 +1,28 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Mythos.Unleashed.Runtime.UI; // <-- Required for SceneFadeController
 
 /// <summary>
-/// ScenePortal is a simple doorway trigger:
-/// - When the Player enters, it tells SceneTransit which spawn point to use in the next scene,
-/// - Then it loads the target scene (via SceneLoader if available, else direct).
-///
-/// Drop this on any portal GameObject with a BoxCollider marked "Is Trigger".
+/// ScenePortal: triggers a scene transition with fade support.
 /// </summary>
 [DisallowMultipleComponent]
 public class ScenePortal : MonoBehaviour
 {
     [Header("Destination")]
-    [SerializeField] private string targetScene = "";             // Exact scene name as it appears in Build Settings
-    [SerializeField] private string targetSpawnPointName = "Default"; // The SpawnPoint.SpawnName to appear at in the destination
+    [SerializeField] private string targetScene = "";
+    [SerializeField] private string targetSpawnPointName = "Default";
 
     [Header("Loading")]
-    [SerializeField] private bool useAsyncLoader = true;          // If true and SceneLoader exists, use it
+    [SerializeField] private bool useAsyncLoader = true;
+    [SerializeField] private float fadeDuration = 0.8f; // matches SceneFadeController
 
     [Header("Filtering")]
-    [SerializeField] private string requiredTag = "Player";       // Only objects with this tag can activate the portal
+    [SerializeField] private string requiredTag = "Player";
 
-    // Tiny guard to prevent double-triggering on the same frame or while loading
     private bool _engaged;
 
     private void Reset()
     {
-        // Ensure a trigger collider is present when this component is first added
         var col = GetComponent<Collider>();
         if (col == null) col = gameObject.AddComponent<BoxCollider>();
         col.isTrigger = true;
@@ -34,32 +30,45 @@ public class ScenePortal : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Ignore anything that isn't the Player (by tag)
         if (!other.CompareTag(requiredTag)) return;
-        if (_engaged) return; // already triggered; ignore re-entry spam
+        if (_engaged) return;
         _engaged = true;
 
-        // 1) Tell the transit singleton which spawn the next scene should use
         SceneTransit.SetNextSpawn(targetSpawnPointName);
         Debug.Log($"[ScenePortal] Sending to {targetScene} via spawn '{targetSpawnPointName}'");
 
-        // 2) Make sure time isn't frozen (e.g., if coming from a paused menu)
         Time.timeScale = 1f;
 
-        // 3) Load the destination scene (prefer the global async loader if present)
+        // Start the fade + transition coroutine
+        StartCoroutine(TransitionWithFade());
+    }
+
+    private System.Collections.IEnumerator TransitionWithFade()
+    {
+        // 1️⃣ Try to locate global fade controller (persistent from Bootstrap)
+        var fade = FindObjectOfType<SceneFadeController>();
+        if (fade != null)
+        {
+            fade.BeginFadeOut();
+            yield return new WaitForSecondsRealtime(fadeDuration);
+        }
+        else
+        {
+            Debug.LogWarning("[ScenePortal] No SceneFadeController found! Instant load.");
+        }
+
+        // 2️⃣ Load the scene (same logic as before)
         if (useAsyncLoader && SceneLoader.Instance != null)
         {
             SceneLoader.Instance.Load(targetScene);
         }
         else
         {
-            // Fallback: direct load (blocking)
             SceneManager.LoadScene(targetScene, LoadSceneMode.Single);
         }
     }
 
 #if UNITY_EDITOR
-    // Simple gizmo so you can see portals easily in the Scene view
     private void OnDrawGizmos()
     {
         Gizmos.color = new Color(0.1f, 0.8f, 1f, 0.35f);
@@ -73,7 +82,6 @@ public class ScenePortal : MonoBehaviour
                 Gizmos.DrawWireSphere(Vector3.zero, 0.5f);
         }
 
-        // Label-ish line toward "forward" to indicate direction
         Gizmos.color = new Color(0.1f, 0.8f, 1f, 0.9f);
         Gizmos.DrawLine(transform.position, transform.position + transform.forward * 1.2f);
     }
