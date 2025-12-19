@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 149838773}
   m_Layer: 0
   m_Name: InputManager
-  m_TagString: Untagged
+  m_TagString: Persistant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 501634020}
   m_Layer: 0
   m_Name: HUDCanvas_Persistent
-  m_TagString: Untagged
+  m_TagString: Persistant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1322,7 +1322,7 @@ GameObject:
   - component: {fileID: 935667659}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: Persistant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1482,6 +1482,66 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &1005692610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1005692613}
+  - component: {fileID: 1005692612}
+  - component: {fileID: 1005692611}
+  m_Layer: 0
+  m_Name: SceneLoader
+  m_TagString: Persistant
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1005692611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005692610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1005692612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005692610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c9ad8d49fd90d4a82badc864fc6643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingSceneName: Loading
+  fadeOutDuration: 0.8
+  fadeInDelay: 0.2
+--- !u!4 &1005692613
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005692610}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.972661, y: 6.257886, z: 0.12885064}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1015704714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,7 +1977,7 @@ GameObject:
   - component: {fileID: 1465282401}
   m_Layer: 0
   m_Name: SceneTransit
-  m_TagString: Untagged
+  m_TagString: Persistant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1973,7 +2033,7 @@ GameObject:
   - component: {fileID: 1528987434}
   m_Layer: 0
   m_Name: MainCameraRig
-  m_TagString: Untagged
+  m_TagString: Persistant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2206,7 +2266,7 @@ GameObject:
   - component: {fileID: 1734572838}
   m_Layer: 0
   m_Name: SoundManager
-  m_TagString: Untagged
+  m_TagString: Persistant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2586,3 +2646,4 @@ SceneRoots:
   - {fileID: 501634019}
   - {fileID: 1071887433}
   - {fileID: 139856175}
+  - {fileID: 1005692613}

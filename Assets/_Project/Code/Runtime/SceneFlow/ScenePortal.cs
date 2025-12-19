@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Mythos.Unleashed.Runtime.UI; // <-- Required for SceneFadeController
+using Mythos.Unleashed.Runtime.SceneFlow;
+
 
 /// <summary>
 /// ScenePortal: triggers a scene transition with fade support.
