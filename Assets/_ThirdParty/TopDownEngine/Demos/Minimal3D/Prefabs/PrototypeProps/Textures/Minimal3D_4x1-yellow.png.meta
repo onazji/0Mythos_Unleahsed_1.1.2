@@ -142,5 +142,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-yellow.png
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-yellow.png
   uploadId: 779820

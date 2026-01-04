@@ -91,5 +91,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Scripts/Welcome/welcome-banner.png
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Scripts/Welcome/welcome-banner.png
   uploadId: 779820

@@ -62,5 +62,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-blue.png
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-blue.png
   uploadId: 779820

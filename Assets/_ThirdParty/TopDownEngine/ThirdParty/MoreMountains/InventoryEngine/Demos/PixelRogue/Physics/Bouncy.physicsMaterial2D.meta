@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Physics/Bouncy.physicsMaterial2D
+  assetPath: Assets/_ThirdParty/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Physics/Bouncy.physicsMaterial2D
   uploadId: 779820

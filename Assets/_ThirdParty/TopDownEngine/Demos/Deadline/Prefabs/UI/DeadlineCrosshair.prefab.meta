@@ -13,5 +13,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Deadline/Prefabs/UI/DeadlineCrosshair.prefab
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Deadline/Prefabs/UI/DeadlineCrosshair.prefab
   uploadId: 779820

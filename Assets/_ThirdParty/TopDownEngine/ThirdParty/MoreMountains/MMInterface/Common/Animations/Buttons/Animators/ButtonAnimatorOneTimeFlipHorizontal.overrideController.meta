@@ -12,5 +12,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Common/Animations/Buttons/Animators/ButtonAnimatorOneTimeFlipHorizontal.overrideController
+  assetPath: Assets/_ThirdParty/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Common/Animations/Buttons/Animators/ButtonAnimatorOneTimeFlipHorizontal.overrideController
   uploadId: 779820

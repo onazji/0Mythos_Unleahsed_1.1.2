@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Deadline/Scenes/DeadlineLevelSelection.unity
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Deadline/Scenes/DeadlineLevelSelection.unity
   uploadId: 779820

@@ -98,5 +98,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Explodudes/Models/ExplodudeCratePiece.fbx
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Explodudes/Models/ExplodudeCratePiece.fbx
   uploadId: 779820

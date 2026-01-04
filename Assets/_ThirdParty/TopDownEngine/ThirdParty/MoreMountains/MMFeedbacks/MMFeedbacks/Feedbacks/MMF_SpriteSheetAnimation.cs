@@ -68,7 +68,7 @@ namespace MoreMountains.Feedbacks
 			}
 			if (AnimationSprites.Count > 0)
 			{
-				return (float) AnimationSprites.Count / FrameRate;
+				return AnimationSprites.Count / FrameRate;
 			}
 			else
 			{
@@ -191,7 +191,7 @@ namespace MoreMountains.Feedbacks
 				{
 					yield break;
 				}
-				yield return WaitFor(delay);
+				yield return MMCoroutine.WaitFor(delay);
 			}
 		}
 

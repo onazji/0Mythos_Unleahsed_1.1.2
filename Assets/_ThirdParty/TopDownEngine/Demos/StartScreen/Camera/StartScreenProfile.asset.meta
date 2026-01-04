@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/StartScreen/Camera/StartScreenProfile.asset
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/StartScreen/Camera/StartScreenProfile.asset
   uploadId: 779820

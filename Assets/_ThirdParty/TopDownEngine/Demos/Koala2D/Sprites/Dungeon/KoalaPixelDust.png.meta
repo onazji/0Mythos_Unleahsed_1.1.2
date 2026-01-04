@@ -124,5 +124,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Koala2D/Sprites/Dungeon/KoalaPixelDust.png
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Koala2D/Sprites/Dungeon/KoalaPixelDust.png
   uploadId: 779820

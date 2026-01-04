@@ -16,5 +16,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Scripts/GUI/AmmoDisplay.cs
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Scripts/GUI/AmmoDisplay.cs
   uploadId: 779820

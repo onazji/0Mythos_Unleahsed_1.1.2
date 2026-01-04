@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Koala2D/Animations/KoalaDungeonChestAnimatorController.controller
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Koala2D/Animations/KoalaDungeonChestAnimatorController.controller
   uploadId: 779820

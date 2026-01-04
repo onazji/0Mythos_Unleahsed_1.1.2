@@ -733,5 +733,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@StandingIdle2.fbx
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuit@StandingIdle2.fbx
   uploadId: 779820

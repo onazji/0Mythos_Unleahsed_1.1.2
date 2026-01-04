@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Explodudes/Materials/Background/ExplodudesWaterMaterial.mat
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Explodudes/Materials/Background/ExplodudesWaterMaterial.mat
   uploadId: 779820

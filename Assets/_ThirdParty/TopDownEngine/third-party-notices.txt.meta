@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/third-party-notices.txt
+  assetPath: Assets/_ThirdParty/TopDownEngine/third-party-notices.txt
   uploadId: 779820

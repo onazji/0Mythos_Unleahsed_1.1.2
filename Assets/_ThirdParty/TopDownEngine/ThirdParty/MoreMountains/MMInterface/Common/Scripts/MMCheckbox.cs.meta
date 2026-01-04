@@ -16,5 +16,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Common/Scripts/MMCheckbox.cs
+  assetPath: Assets/_ThirdParty/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Common/Scripts/MMCheckbox.cs
   uploadId: 779820

@@ -6051,7 +6051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4407977586509776, guid: d4529f47989526241929319abfdfc29d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -22.25
+      value: -23.75
       objectReference: {fileID: 0}
     - target: {fileID: 4407977586509776, guid: d4529f47989526241929319abfdfc29d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6897,16 +6897,6 @@ PrefabInstance:
       propertyPath: CameraTransform
       value: 
       objectReference: {fileID: 1160353690}
-    - target: {fileID: 6171593478379081724, guid: d4529f47989526241929319abfdfc29d,
-        type: 3}
-      propertyPath: m_StreamingVersion
-      value: 20241001
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222444169721600612, guid: d4529f47989526241929319abfdfc29d,
-        type: 3}
-      propertyPath: BoundingVolume
-      value: 
-      objectReference: {fileID: 1392788253}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
@@ -8569,9 +8559,6 @@ MonoBehaviour:
     OnPause:
       m_PersistentCalls:
         m_Calls: []
-    OnStop:
-      m_PersistentCalls:
-        m_Calls: []
     OnResume:
       m_PersistentCalls:
         m_Calls: []
@@ -8605,7 +8592,6 @@ MonoBehaviour:
   - rid: 3
   KeepPlayModeChanges: 0
   PerformanceMode: 0
-  RestoreInitialValuesOnDisable: 0
   StopFeedbacksOnDisable: 0
   PlayCount: 0
   references:
@@ -8769,7 +8755,6 @@ MonoBehaviour:
         DebugActive: 0
         TargetGameObject: {fileID: 1276243733}
         ExtraTargetGameObjects: []
-        IgnorePlayDirection: 0
         SetStateOnInit: 0
         StateOnInit: 1
         SetStateOnPlay: 1
@@ -8932,9 +8917,7 @@ MonoBehaviour:
           ButtonText: Automatic Shaker Setup
         Owner: {fileID: 830411325}
         DebugActive: 0
-        Source: 0
         Sfx: {fileID: 8300000, guid: c67a7170556406645bd09cd6d6f16843, type: 3}
-        AudioResourceToPlay: {fileID: 0}
         RandomSfx: []
         SequentialOrder: 0
         SequentialOrderHoldLast: 0
@@ -9160,9 +9143,6 @@ MonoBehaviour:
     OnPause:
       m_PersistentCalls:
         m_Calls: []
-    OnStop:
-      m_PersistentCalls:
-        m_Calls: []
     OnResume:
       m_PersistentCalls:
         m_Calls: []
@@ -9192,7 +9172,6 @@ MonoBehaviour:
   FeedbacksList: []
   KeepPlayModeChanges: 0
   PerformanceMode: 0
-  RestoreInitialValuesOnDisable: 0
   StopFeedbacksOnDisable: 0
   PlayCount: 0
   references:

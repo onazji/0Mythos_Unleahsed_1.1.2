@@ -12,5 +12,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Resources/Items/LoftSniperRifleAmmo.asset
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Resources/Items/LoftSniperRifleAmmo.asset
   uploadId: 779820

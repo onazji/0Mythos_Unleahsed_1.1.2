@@ -15,5 +15,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/InventoryEngine/Scripts/Items/BaseItem.cs
+  assetPath: Assets/_ThirdParty/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/InventoryEngine/Scripts/Items/BaseItem.cs
   uploadId: 779820

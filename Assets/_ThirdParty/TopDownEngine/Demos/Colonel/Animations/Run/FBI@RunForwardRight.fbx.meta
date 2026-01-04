@@ -964,5 +964,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Colonel/Animations/Run/FBI@RunForwardRight.fbx
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Colonel/Animations/Run/FBI@RunForwardRight.fbx
   uploadId: 779820

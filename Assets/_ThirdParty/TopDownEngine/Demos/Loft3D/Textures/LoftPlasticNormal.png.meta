@@ -94,5 +94,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Textures/LoftPlasticNormal.png
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Textures/LoftPlasticNormal.png
   uploadId: 779820

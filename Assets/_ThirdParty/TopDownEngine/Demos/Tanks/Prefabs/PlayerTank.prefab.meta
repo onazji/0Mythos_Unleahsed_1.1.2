@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Tanks/Prefabs/PlayerTank.prefab
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Tanks/Prefabs/PlayerTank.prefab
   uploadId: 779820

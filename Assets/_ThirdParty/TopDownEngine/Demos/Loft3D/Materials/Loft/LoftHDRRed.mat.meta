@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Materials/Loft/LoftHDRRed.mat
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Materials/Loft/LoftHDRRed.mat
   uploadId: 779820

@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Minimal3D/MinimalGrid3D.unity
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Minimal3D/MinimalGrid3D.unity
   uploadId: 779820

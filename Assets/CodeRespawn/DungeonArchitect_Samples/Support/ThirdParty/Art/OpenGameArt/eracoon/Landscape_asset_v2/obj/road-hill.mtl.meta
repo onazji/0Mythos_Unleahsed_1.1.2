@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2d7e6fba8ea8dbb4e8bcb9b4606a5e3f
+timeCreated: 1457423921
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 53895
+  packageName: Dungeon Architect
+  packageVersion: 1.22.0
+  assetPath: Assets/CodeRespawn/DungeonArchitect_Samples/Support/ThirdParty/Art/OpenGameArt/eracoon/Landscape_asset_v2/obj/road-hill.mtl
+  uploadId: 712852

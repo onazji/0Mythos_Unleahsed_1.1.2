@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/ScriptsInputSystem/Lighting/MinimalScene3D_InputSystemSettings.lighting
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/ScriptsInputSystem/Lighting/MinimalScene3D_InputSystemSettings.lighting
   uploadId: 779820

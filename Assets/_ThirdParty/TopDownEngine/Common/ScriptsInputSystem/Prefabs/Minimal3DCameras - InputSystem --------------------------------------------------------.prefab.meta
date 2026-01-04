@@ -10,6 +10,6 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/ScriptsInputSystem/Prefabs/Minimal3DCameras
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/ScriptsInputSystem/Prefabs/Minimal3DCameras
     - InputSystem --------------------------------------------------------.prefab
   uploadId: 779820

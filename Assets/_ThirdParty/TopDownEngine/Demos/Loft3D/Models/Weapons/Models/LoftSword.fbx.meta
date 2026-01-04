@@ -116,5 +116,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Models/Weapons/Models/LoftSword.fbx
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Models/Weapons/Models/LoftSword.fbx
   uploadId: 779820

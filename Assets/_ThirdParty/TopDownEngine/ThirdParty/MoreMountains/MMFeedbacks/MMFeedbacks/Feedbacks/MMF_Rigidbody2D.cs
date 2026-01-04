@@ -5,7 +5,6 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace MoreMountains.Feedbacks
 {
-	#if MM_PHYSICS2D
 	/// <summary>
 	/// this feedback will let you apply forces and torques (relative or not) to a Rigidbody
 	/// </summary>
@@ -25,7 +24,6 @@ namespace MoreMountains.Feedbacks
 		public override string RequiresSetupText { get { return "This feedback requires that a TargetRigidbody2D be set to be able to work properly. You can set one below."; } }
 		#endif
 		public override bool HasAutomatedTargetAcquisition => true;
-		
 		protected override void AutomateTargetAcquisition() => TargetRigidbody2D = FindAutomatedTarget<Rigidbody2D>();
 
 		public enum Modes { AddForce, AddRelativeForce, AddTorque}
@@ -119,5 +117,4 @@ namespace MoreMountains.Feedbacks
 			}
 		}
 	}
-	#endif
 }

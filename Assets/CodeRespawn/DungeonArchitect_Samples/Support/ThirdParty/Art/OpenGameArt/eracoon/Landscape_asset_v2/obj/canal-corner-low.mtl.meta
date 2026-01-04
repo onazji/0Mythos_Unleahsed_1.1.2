@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 92aff6e956e7f6a46b05853dd823a47b
+timeCreated: 1457423922
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 53895
+  packageName: Dungeon Architect
+  packageVersion: 1.22.0
+  assetPath: Assets/CodeRespawn/DungeonArchitect_Samples/Support/ThirdParty/Art/OpenGameArt/eracoon/Landscape_asset_v2/obj/canal-corner-low.mtl
+  uploadId: 712852

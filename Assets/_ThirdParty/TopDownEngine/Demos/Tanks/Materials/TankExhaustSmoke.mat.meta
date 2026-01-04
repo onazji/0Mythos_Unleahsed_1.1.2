@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Tanks/Materials/TankExhaustSmoke.mat
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Tanks/Materials/TankExhaustSmoke.mat
   uploadId: 779820

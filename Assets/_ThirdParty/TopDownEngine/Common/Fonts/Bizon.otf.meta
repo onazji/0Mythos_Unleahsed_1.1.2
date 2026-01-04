@@ -23,5 +23,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Fonts/Bizon.otf
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Fonts/Bizon.otf
   uploadId: 779820

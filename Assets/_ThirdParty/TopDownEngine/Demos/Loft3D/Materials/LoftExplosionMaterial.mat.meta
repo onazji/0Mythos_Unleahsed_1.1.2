@@ -13,5 +13,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Materials/LoftExplosionMaterial.mat
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Materials/LoftExplosionMaterial.mat
   uploadId: 779820

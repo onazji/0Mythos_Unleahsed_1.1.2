@@ -81,5 +81,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_1WayPlatformModel.obj
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_1WayPlatformModel.obj
   uploadId: 779820

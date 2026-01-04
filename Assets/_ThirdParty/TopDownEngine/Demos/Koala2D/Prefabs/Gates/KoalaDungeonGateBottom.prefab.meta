@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Koala2D/Prefabs/Gates/KoalaDungeonGateBottom.prefab
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Koala2D/Prefabs/Gates/KoalaDungeonGateBottom.prefab
   uploadId: 779820

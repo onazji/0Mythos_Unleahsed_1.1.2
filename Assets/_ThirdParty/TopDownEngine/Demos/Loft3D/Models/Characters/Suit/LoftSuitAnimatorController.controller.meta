@@ -13,5 +13,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuitAnimatorController.controller
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Models/Characters/Suit/LoftSuitAnimatorController.controller
   uploadId: 779820

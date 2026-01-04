@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Prefabs/GUI/MMFaderRound.prefab
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Prefabs/GUI/MMFaderRound.prefab
   uploadId: 779820

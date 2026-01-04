@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/LevelSelection/Prefabs/LevelSelectionPixelCorgi.prefab
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/LevelSelection/Prefabs/LevelSelectionPixelCorgi.prefab
   uploadId: 779820

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 39ba781f1882156408770fc31995715b
+timeCreated: 1457423921
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 53895
+  packageName: Dungeon Architect
+  packageVersion: 1.22.0
+  assetPath: Assets/CodeRespawn/DungeonArchitect_Samples/Support/ThirdParty/Art/OpenGameArt/eracoon/Landscape_asset_v2/obj/water.mtl
+  uploadId: 712852

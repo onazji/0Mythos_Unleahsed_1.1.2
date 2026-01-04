@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Editor/Items/PickableAbilityInspector.cs
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Editor/Items/PickableAbilityInspector.cs
   uploadId: 779820

@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Editor/MoreMountains.TopDownEngine.Editor.asmdef
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Editor/MoreMountains.TopDownEngine.Editor.asmdef
   uploadId: 779820

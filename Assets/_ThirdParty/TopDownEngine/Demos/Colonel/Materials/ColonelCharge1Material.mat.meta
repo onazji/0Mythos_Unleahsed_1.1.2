@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Colonel/Materials/ColonelCharge1Material.mat
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Colonel/Materials/ColonelCharge1Material.mat
   uploadId: 779820

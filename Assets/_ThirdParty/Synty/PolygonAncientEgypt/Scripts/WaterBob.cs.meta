@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c9f058cba9466084dbf41ba1f8829f6b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293283
+  packageName: Ancient Egypt Pack - Synty POLYGON - Stylized Low Poly Assets
+  packageVersion: 1.0.1
+  assetPath: Assets/Synty/PolygonAncientEgypt/Scripts/WaterBob.cs
+  uploadId: 735871

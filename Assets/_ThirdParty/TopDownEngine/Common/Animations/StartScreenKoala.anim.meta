@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Animations/StartScreenKoala.anim
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Animations/StartScreenKoala.anim
   uploadId: 779820

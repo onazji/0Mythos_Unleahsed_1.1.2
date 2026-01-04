@@ -12,5 +12,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Minimal2D/Sprites/Props/Materials/MinimalShootingRangeTarget.mat
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Minimal2D/Sprites/Props/Materials/MinimalShootingRangeTarget.mat
   uploadId: 779820

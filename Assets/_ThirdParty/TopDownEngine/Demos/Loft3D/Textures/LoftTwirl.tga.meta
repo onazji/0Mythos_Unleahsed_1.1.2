@@ -91,5 +91,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Textures/LoftTwirl.tga
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Textures/LoftTwirl.tga
   uploadId: 779820

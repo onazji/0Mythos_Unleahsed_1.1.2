@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Scripts/GUI/DialogueBox.cs
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Scripts/GUI/DialogueBox.cs
   uploadId: 779820

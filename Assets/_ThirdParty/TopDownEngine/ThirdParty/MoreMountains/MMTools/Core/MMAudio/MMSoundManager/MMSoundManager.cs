@@ -138,7 +138,7 @@ namespace MoreMountains.Tools
 				options.DoNotAutoRecycleIfNotDonePlaying, options.PlaybackTime, options.PlaybackDuration, options.AttachToTransform,
 				options.UseSpreadCurve, options.SpreadCurve, options.UseCustomRolloffCurve, options.CustomRolloffCurve,
 				options.UseSpatialBlendCurve, options.SpatialBlendCurve, options.UseReverbZoneMixCurve, options.ReverbZoneMixCurve, 
-				options.AudioResourceToPlay, options.InitialDelay
+				options.AudioResourceToPlay
 			);
 		}
 
@@ -187,7 +187,7 @@ namespace MoreMountains.Tools
 			bool doNotAutoRecycleIfNotDonePlaying = false, float playbackTime = 0f, float playbackDuration = 0f, Transform attachToTransform = null,
 			bool useSpreadCurve = false, AnimationCurve spreadCurve = null, bool useCustomRolloffCurve = false, AnimationCurve customRolloffCurve = null,
 			bool useSpatialBlendCurve = false, AnimationCurve spatialBlendCurve = null, bool useReverbZoneMixCurve = false, AnimationCurve reverbZoneMixCurve = null, 
-			AudioResource audioResourceToPlay = null, float initialDelay = 0f
+			AudioResource audioResourceToPlay = null
 		)
 		{
 			if (this == null) { return null; }
@@ -298,14 +298,7 @@ namespace MoreMountains.Tools
 			audioSource.volume = volume;  
             
 			// we start playing the sound
-			if (initialDelay > 0f)
-			{
-				audioSource.PlayDelayed(initialDelay);	
-			}
-			else
-			{
-				audioSource.Play();	
-			}
+			audioSource.Play();
             
 			// we destroy the host after the clip has played if it was a one time AS.
 			if (!loop && !recycleAudioSource)
@@ -1010,7 +1003,7 @@ namespace MoreMountains.Tools
 		{
 			foreach (MMSoundManagerSound sound in _sounds)
 			{
-				if ((sound.Source != null) && (sound.Source.clip == clip))
+				if (sound.Source.clip == clip)
 				{
 					return sound.Source;
 				}

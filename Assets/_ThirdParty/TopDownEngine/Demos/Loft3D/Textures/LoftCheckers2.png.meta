@@ -122,5 +122,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Textures/LoftCheckers2.png
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Textures/LoftCheckers2.png
   uploadId: 779820

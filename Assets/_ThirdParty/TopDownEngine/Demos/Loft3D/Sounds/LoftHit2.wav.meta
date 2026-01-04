@@ -25,5 +25,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Sounds/LoftHit2.wav
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Sounds/LoftHit2.wav
   uploadId: 779820

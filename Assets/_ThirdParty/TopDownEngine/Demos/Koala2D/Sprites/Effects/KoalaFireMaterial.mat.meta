@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Koala2D/Sprites/Effects/KoalaFireMaterial.mat
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Koala2D/Sprites/Effects/KoalaFireMaterial.mat
   uploadId: 779820

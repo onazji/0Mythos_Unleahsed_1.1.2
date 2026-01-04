@@ -16,5 +16,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Editor/Welcome/WelcomeWindow.cs
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Editor/Welcome/WelcomeWindow.cs
   uploadId: 779820

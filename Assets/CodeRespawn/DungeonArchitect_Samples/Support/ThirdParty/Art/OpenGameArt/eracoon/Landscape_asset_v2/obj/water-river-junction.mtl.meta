@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 844dd57f5ffd6ad4fb2c5f249f703c98
+timeCreated: 1457423922
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 53895
+  packageName: Dungeon Architect
+  packageVersion: 1.22.0
+  assetPath: Assets/CodeRespawn/DungeonArchitect_Samples/Support/ThirdParty/Art/OpenGameArt/eracoon/Landscape_asset_v2/obj/water-river-junction.mtl
+  uploadId: 712852

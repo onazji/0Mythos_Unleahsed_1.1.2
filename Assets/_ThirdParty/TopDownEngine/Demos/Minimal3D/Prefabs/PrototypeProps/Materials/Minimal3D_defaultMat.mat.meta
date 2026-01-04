@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_defaultMat.mat
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_defaultMat.mat
   uploadId: 779820

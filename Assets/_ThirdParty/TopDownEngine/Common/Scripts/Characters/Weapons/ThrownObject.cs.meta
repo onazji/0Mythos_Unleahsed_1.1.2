@@ -15,5 +15,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Scripts/Characters/Weapons/ThrownObject.cs
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Scripts/Characters/Weapons/ThrownObject.cs
   uploadId: 779820

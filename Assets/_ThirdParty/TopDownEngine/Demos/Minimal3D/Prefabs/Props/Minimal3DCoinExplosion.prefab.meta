@@ -13,5 +13,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DCoinExplosion.prefab
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DCoinExplosion.prefab
   uploadId: 779820

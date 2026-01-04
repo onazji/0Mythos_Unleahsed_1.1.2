@@ -109,5 +109,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Models/Walls/LoftWallThick.fbx
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Models/Walls/LoftWallThick.fbx
   uploadId: 779820

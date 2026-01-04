@@ -14,5 +14,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Scripts/Characters/CharacterAbilities/CharacterOrientation2D.cs
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Scripts/Characters/CharacterAbilities/CharacterOrientation2D.cs
   uploadId: 779820

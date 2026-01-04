@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/ScriptsCinemachine/Editor/MoreMountains.TopDownEngine.Cinemachine.Editor.asmref
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/ScriptsCinemachine/Editor/MoreMountains.TopDownEngine.Cinemachine.Editor.asmref
   uploadId: 779820

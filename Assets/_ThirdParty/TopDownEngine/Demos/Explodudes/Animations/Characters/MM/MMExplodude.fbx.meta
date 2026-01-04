@@ -364,5 +364,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Explodudes/Animations/Characters/MM/MMExplodude.fbx
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Explodudes/Animations/Characters/MM/MMExplodude.fbx
   uploadId: 779820

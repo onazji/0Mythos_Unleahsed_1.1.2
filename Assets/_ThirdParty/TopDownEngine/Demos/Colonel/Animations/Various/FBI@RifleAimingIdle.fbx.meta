@@ -950,5 +950,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Colonel/Animations/Various/FBI@RifleAimingIdle.fbx
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Colonel/Animations/Various/FBI@RifleAimingIdle.fbx
   uploadId: 779820

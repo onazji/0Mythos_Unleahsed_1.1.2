@@ -11,6 +11,6 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_1x1
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_1x1
     Blue.prefab
   uploadId: 779820

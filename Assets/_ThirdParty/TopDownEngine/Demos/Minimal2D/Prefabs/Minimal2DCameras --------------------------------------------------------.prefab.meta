@@ -11,5 +11,6 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Minimal2D/Prefabs/Minimal2DCameras --------------------------------------------------------.prefab
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Minimal2D/Prefabs/Minimal2DCameras
+    --------------------------------------------------------.prefab
   uploadId: 779820

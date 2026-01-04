@@ -11,5 +11,6 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Loft3D/Prefabs/Cameras/3DCameras --------------------------------------------------------.prefab
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Loft3D/Prefabs/Cameras/3DCameras
+    --------------------------------------------------------.prefab
   uploadId: 779820

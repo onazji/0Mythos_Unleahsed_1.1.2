@@ -25,5 +25,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Koala2D/Sounds/KoalaLoot.wav
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Koala2D/Sounds/KoalaLoot.wav
   uploadId: 779820

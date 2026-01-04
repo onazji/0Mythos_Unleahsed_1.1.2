@@ -923,5 +923,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Colonel/Models/FBI@T-Pose.fbx
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Colonel/Models/FBI@T-Pose.fbx
   uploadId: 779820

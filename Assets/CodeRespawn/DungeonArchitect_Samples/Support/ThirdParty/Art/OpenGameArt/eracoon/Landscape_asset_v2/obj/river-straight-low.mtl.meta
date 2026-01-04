@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 89618ec7b0e744549976246978bc72ca
+timeCreated: 1457423922
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 53895
+  packageName: Dungeon Architect
+  packageVersion: 1.22.0
+  assetPath: Assets/CodeRespawn/DungeonArchitect_Samples/Support/ThirdParty/Art/OpenGameArt/eracoon/Landscape_asset_v2/obj/river-straight-low.mtl
+  uploadId: 712852

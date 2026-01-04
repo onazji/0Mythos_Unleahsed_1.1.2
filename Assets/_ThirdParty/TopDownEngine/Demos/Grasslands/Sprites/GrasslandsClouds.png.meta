@@ -124,5 +124,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Grasslands/Sprites/GrasslandsClouds.png
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Grasslands/Sprites/GrasslandsClouds.png
   uploadId: 779820

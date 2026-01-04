@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Koala2D/Prefabs/PlayableCharacters/KoalaSwitchModel.prefab
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Koala2D/Prefabs/PlayableCharacters/KoalaSwitchModel.prefab
   uploadId: 779820

@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Colonel/Prefabs/Weapons/ColonelAimMarker.prefab
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Colonel/Prefabs/Weapons/ColonelAimMarker.prefab
   uploadId: 779820

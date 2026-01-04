@@ -16,5 +16,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Common/Scripts/Items/PickableItem.cs
+  assetPath: Assets/_ThirdParty/TopDownEngine/Common/Scripts/Items/PickableItem.cs
   uploadId: 779820

@@ -98,5 +98,5 @@ AssetOrigin:
   productId: 89636
   packageName: TopDown Engine
   packageVersion: 4.4
-  assetPath: Assets/TopDownEngine/Demos/Minimal3D/Models/Minimal3DCoin.obj
+  assetPath: Assets/_ThirdParty/TopDownEngine/Demos/Minimal3D/Models/Minimal3DCoin.obj
   uploadId: 779820
