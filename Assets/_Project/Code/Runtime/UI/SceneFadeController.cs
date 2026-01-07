@@ -1,12 +1,14 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Mythos.Unleashed.Runtime.Audio;
 
 namespace Mythos.Unleashed.Runtime.UI
 {
     /// <summary>
     /// Handles fade in/out transitions during scene loads using the existing HUDCanvas_Persistent.
     /// The FadePanel must contain a CanvasGroup for opacity control.
+    /// Also syncs ambient audio fades for smoother transitions.
     /// </summary>
     [DisallowMultipleComponent]
     public class SceneFadeController : MonoBehaviour
@@ -42,14 +44,36 @@ namespace Mythos.Unleashed.Runtime.UI
 
         private void HandleSceneLoaded(Scene scene, LoadSceneMode mode)
         {
-            // Automatically fade in after scene load
+            // Fade in after new scene loads
             if (_fadeRoutine != null)
                 StopCoroutine(_fadeRoutine);
             _fadeRoutine = StartCoroutine(Fade(0f, 0.25f));
+
+            // 🔊 Also fade in ambient sound
+            var ambient = FindObjectOfType<AmbientFader>();
+            if (ambient != null)
+                ambient.FadeIn(_fadeDuration);
         }
 
-        public void BeginFadeOut() => StartCoroutine(Fade(1f));
-        public void BeginFadeIn() => StartCoroutine(Fade(0f));
+        public void BeginFadeOut()
+        {
+            StartCoroutine(Fade(1f));
+
+            // 🔊 Fade out ambient sound
+            var ambient = FindObjectOfType<AmbientFader>();
+            if (ambient != null)
+                ambient.FadeOut(_fadeDuration * 0.9f);
+        }
+
+        public void BeginFadeIn()
+        {
+            StartCoroutine(Fade(0f));
+
+            // 🔊 Fade in ambient sound
+            var ambient = FindObjectOfType<AmbientFader>();
+            if (ambient != null)
+                ambient.FadeIn(_fadeDuration);
+        }
 
         private IEnumerator Fade(float target, float delay = 0f)
         {
