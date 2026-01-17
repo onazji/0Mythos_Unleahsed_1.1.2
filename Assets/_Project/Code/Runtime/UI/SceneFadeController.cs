@@ -13,6 +13,10 @@ namespace Mythos.Unleashed.Runtime.UI
     [DisallowMultipleComponent]
     public class SceneFadeController : MonoBehaviour
     {
+
+        [SerializeField, Tooltip("Optional link to ambient fader for sound transitions.")]
+        private Mythos.Unleashed.Runtime.Audio.AmbientFader ambientFader;
+
         [Header("Fade Components")]
         [SerializeField, Tooltip("Reference to the CanvasGroup on the FadePanel.")]
         private CanvasGroup _fadeGroup;

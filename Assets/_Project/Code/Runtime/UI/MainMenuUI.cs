@@ -1,6 +1,6 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using Mythos.Unleashed.Runtime.UI;
+using Mythos.Unleashed.Runtime.SceneFlow; // ✅ Access SceneLoader
 
 public class MainMenuUI : MonoBehaviour
 {
@@ -38,6 +38,15 @@ public class MainMenuUI : MonoBehaviour
 
     private void LoadNextScene()
     {
-        SceneManager.LoadScene(nextSceneName);
+        if (SceneLoader.Instance != null)
+        {
+            SceneLoader.Instance.Load(nextSceneName);
+            Debug.Log($"[MainMenuUI] Loading '{nextSceneName}' via SceneLoader.");
+        }
+        else
+        {
+            Debug.LogWarning("[MainMenuUI] SceneLoader instance not found — using direct load fallback.");
+            UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneName);
+        }
     }
 }

@@ -399,6 +399,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &675949694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 675949697}
+  - component: {fileID: 675949696}
+  - component: {fileID: 675949695}
+  m_Layer: 0
+  m_Name: SceneLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &675949695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675949694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &675949696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675949694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c9ad8d49fd90d4a82badc864fc6643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingSceneName: Loading
+  fadeOutDuration: 0.8
+  fadeInDelay: 0.2
+  minLoadingScreenTime: 1.5
+--- !u!4 &675949697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675949694}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 888, y: 271.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &720973751
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,66 +610,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1005692610
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1005692613}
-  - component: {fileID: 1005692612}
-  - component: {fileID: 1005692611}
-  m_Layer: 0
-  m_Name: SceneLoader
-  m_TagString: Persistant
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1005692611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005692610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a322838ae48e4343b9d167a4f47a9ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1005692612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005692610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6c9ad8d49fd90d4a82badc864fc6643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadingSceneName: Loading
-  fadeOutDuration: 0.8
-  fadeInDelay: 0.2
---- !u!4 &1005692613
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005692610}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.972661, y: 6.257886, z: 0.12885064}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1071887432
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,6 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baec3b27d8ad58b4cac0f228acfdc8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ambientFader: {fileID: 0}
   _fadeGroup: {fileID: 1388443925}
   _fadeDuration: 0.8
   _delayBeforeFadeOut: 0.25
@@ -1239,7 +1241,7 @@ PrefabInstance:
     - target: {fileID: 1073552940209001424, guid: 9edcf7e494cf3e640b18cb7495fb179a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1135955040397125716, guid: 9edcf7e494cf3e640b18cb7495fb179a,
         type: 3}
@@ -1423,4 +1425,4 @@ SceneRoots:
   - {fileID: 1528987433}
   - {fileID: 501634019}
   - {fileID: 1071887433}
-  - {fileID: 1005692613}
+  - {fileID: 675949697}
