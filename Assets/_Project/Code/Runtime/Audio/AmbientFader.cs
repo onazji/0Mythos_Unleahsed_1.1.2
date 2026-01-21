@@ -1,46 +1,67 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 namespace Mythos.Unleashed.Runtime.Audio
 {
     /// <summary>
     /// Handles ambient audio volume fading during transitions.
-    /// Supports both the main attached AudioSource and additional ambient sources.
+    /// Automatically disables ambience when leaving its scene.
     /// </summary>
     [DisallowMultipleComponent]
     [RequireComponent(typeof(AudioSource))]
     public class AmbientFader : MonoBehaviour
     {
-        [Header("Main Audio Source")]
         private AudioSource _source;
         private Coroutine _fadeRoutine;
 
         [Header("Additional Ambient Sources")]
         [SerializeField] private AudioSource[] ambientSources;
 
-        [SerializeField, Range(0.1f, 5f)] 
-        private float fadeDuration = 2.0f;
+        [SerializeField, Range(0.1f, 5f)] private float fadeDuration = 2.0f;
+
+        private string _originScene;
 
         private void Awake()
         {
             _source = GetComponent<AudioSource>();
             if (_source == null)
                 Debug.LogWarning("[AmbientFader] Missing AudioSource component.");
+
+            // Remember which scene this ambience belongs to
+            _originScene = SceneManager.GetActiveScene().name;
+
+            // Subscribe to scene change event
+            SceneManager.sceneLoaded += OnSceneChanged;
         }
 
-        private void Start()
+        private void OnDestroy()
         {
-            // Auto-fade in all ambient sources when the scene starts
-            foreach (var src in ambientSources)
+            SceneManager.sceneLoaded -= OnSceneChanged;
+        }
+
+        private void OnSceneChanged(Scene newScene, LoadSceneMode mode)
+        {
+            // If we’ve left the scene this ambience belongs to, fade it out and destroy it
+            if (newScene.name != _originScene)
             {
-                if (src != null)
-                {
-                    src.volume = 0f;
-                    StartCoroutine(FadeIn(src));
-                }
+                StartCoroutine(FadeOutAndDestroy());
             }
         }
 
+        private IEnumerator FadeOutAndDestroy()
+        {
+            if (_source != null)
+                yield return StartCoroutine(FadeOut(_source));
+
+            foreach (var src in ambientSources)
+                if (src != null)
+                    yield return StartCoroutine(FadeOut(src));
+
+            Destroy(gameObject, 0.25f);
+        }
+
+        // Your existing FadeIn/FadeOut/FadeTo methods stay the same
         public void FadeOut(float duration = 1f)
         {
             if (_fadeRoutine != null) StopCoroutine(_fadeRoutine);
