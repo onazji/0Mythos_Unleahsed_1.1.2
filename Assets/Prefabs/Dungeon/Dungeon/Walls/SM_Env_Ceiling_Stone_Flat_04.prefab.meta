@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3689cb100b40430428297c691e0e83d2
+timeCreated: 1507767301
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_04.prefab
+  uploadId: 735882

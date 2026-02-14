@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2668a5a5cc35df24baa8b72eb8c6773a
+timeCreated: 1506042981
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Archway_01.prefab
+  uploadId: 735882

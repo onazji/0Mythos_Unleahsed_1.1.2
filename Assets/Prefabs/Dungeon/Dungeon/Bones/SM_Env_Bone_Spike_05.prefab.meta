@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f6d9fb8ce852814897733f21c5d11d8
+timeCreated: 1506042998
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Bones/SM_Env_Bone_Spike_05.prefab
+  uploadId: 735882

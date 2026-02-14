@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 300ae0cd9c1519248b802d8cf8444775
+timeCreated: 1506042983
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_Brick_Rubble_05.prefab
+  uploadId: 735882

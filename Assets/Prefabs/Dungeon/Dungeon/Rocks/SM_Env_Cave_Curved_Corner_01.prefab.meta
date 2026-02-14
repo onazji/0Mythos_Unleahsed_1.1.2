@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca864976b1a322b428b0d383bb5cdbaf
+timeCreated: 1505956619
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_Cave_Curved_Corner_01.prefab
+  uploadId: 735882

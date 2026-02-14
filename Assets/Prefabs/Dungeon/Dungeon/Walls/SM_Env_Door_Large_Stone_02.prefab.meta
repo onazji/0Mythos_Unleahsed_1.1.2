@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6e29b29866fb8bc4f958e530a796ba9c
+timeCreated: 1505956616
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Stone_02.prefab
+  uploadId: 735882

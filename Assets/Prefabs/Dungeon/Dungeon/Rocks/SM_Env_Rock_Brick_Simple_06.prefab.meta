@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6d7c22b6e4b01e84e95f9fb2849f14b5
+timeCreated: 1506042989
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_Rock_Brick_Simple_06.prefab
+  uploadId: 735882

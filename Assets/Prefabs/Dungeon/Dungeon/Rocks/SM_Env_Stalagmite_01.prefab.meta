@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e741456a2d20c42488172ea38e791c8d
+timeCreated: 1506042982
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_Stalagmite_01.prefab
+  uploadId: 735882

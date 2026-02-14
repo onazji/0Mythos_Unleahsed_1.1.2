@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f20da399a27ac4c4dbbe758bda65884f
+timeCreated: 1507240737
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_01_Alt.prefab
+  uploadId: 735882

@@ -828,7 +828,8 @@ MonoBehaviour:
   transformRuleClassName: 
   useSpatialConstraint: 0
   spatialConstraint: {fileID: -625627733783274765}
-  Template: {fileID: 2707005034545159175, guid: 5730e1e79d448474f81d8b49815ef870, type: 3}
+  Template: {fileID: 2707005034545159175, guid: 5730e1e79d448474f81d8b49815ef870,
+    type: 3}
 --- !u!114 &-2403224984064603963
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e3fef9f0413e44b49be762eda87412d6
+timeCreated: 1505964530
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_Rubble_03.prefab
+  uploadId: 735882

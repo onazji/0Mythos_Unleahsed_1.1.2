@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 217e2d6d7d7d7d04d9a317699a073b5e
+timeCreated: 1506548599
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Tunnel_01.prefab
+  uploadId: 735882

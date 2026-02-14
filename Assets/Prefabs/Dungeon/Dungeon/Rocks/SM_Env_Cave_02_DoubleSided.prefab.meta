@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a87b501e54bd51b4988abac6d4951ca2
+timeCreated: 1508373732
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_Cave_02_DoubleSided.prefab
+  uploadId: 735882

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 61f553bae0a50c54dae7ae6c135ccd8d
+timeCreated: 1506042982
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_Rock_Rectangle_01.prefab
+  uploadId: 735882

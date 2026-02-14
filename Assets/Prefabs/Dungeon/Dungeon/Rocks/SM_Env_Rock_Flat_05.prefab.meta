@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bce0f93ff8a58e34a8cb2ff5ea106395
+timeCreated: 1505956632
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_Rock_Flat_05.prefab
+  uploadId: 735882

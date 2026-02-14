@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 44a25762a2d52ad4981903e50527a199
+timeCreated: 1506042997
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_RockPile_Pillar_01.prefab
+  uploadId: 735882

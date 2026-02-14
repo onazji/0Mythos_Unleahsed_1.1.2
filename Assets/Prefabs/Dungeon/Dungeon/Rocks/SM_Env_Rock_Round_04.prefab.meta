@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0398b5e138d363a4aa2f0222f2b2d331
+timeCreated: 1506042984
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_Rock_Round_04.prefab
+  uploadId: 735882

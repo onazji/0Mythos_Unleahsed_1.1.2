@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 08643466601a4b44d837776414520e80
+timeCreated: 1507583540
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Bones/SM_Env_BonePile_03.prefab
+  uploadId: 735882

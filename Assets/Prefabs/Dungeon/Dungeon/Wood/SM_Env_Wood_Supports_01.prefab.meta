@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bbbfb8f4220f5e24bab57e978e585e1e
+timeCreated: 1505956629
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Wood/SM_Env_Wood_Supports_01.prefab
+  uploadId: 735882

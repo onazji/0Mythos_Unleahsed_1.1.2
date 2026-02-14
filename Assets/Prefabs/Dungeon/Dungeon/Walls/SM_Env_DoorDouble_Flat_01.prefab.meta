@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0f5c6be6b4b334546b3218bce0a0a322
+timeCreated: 1505956630
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_DoorDouble_Flat_01.prefab
+  uploadId: 735882

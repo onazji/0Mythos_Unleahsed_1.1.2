@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cfbcc07d1947d334e94f79d2052ecb51
+timeCreated: 1506995094
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Wood/SM_Env_Minetrack_Bridge_01.prefab
+  uploadId: 735882

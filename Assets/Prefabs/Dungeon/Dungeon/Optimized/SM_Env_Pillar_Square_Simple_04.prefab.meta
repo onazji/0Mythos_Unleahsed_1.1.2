@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1b42cb91ed65c0448b009e6740d81ad4
+timeCreated: 1506042983
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Optimized/SM_Env_Pillar_Square_Simple_04.prefab
+  uploadId: 735882

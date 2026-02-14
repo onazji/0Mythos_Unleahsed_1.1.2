@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b4d4d65108b2c134da14e911e71a9f36
+timeCreated: 1507241936
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_Double_Round_01.prefab
+  uploadId: 735882

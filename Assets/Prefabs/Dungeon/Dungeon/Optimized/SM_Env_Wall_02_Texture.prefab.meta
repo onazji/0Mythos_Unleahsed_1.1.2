@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eea7d7a60c8e6fc47b62e73e0b2a6991
+timeCreated: 1508123475
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Optimized/SM_Env_Wall_02_Texture.prefab
+  uploadId: 735882

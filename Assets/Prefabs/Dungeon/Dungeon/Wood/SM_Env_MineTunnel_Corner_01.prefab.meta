@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ab0773f4ba723647b7479f84d2202b2
+timeCreated: 1505956616
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Wood/SM_Env_MineTunnel_Corner_01.prefab
+  uploadId: 735882

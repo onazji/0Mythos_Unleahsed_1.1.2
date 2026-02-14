@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b6fb54ab0cb8a584d99e8bd2932c51dc
+timeCreated: 1506042986
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Rocks/SM_Env_Rock_Pebble_03.prefab
+  uploadId: 735882

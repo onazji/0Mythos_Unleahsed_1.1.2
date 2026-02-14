@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d369dde1a2ce9ce4b8702f813d5e8537
+timeCreated: 1506042987
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Bones/SM_Env_Bone_Skull_Jaw_02.prefab
+  uploadId: 735882

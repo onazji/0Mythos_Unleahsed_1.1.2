@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 10c160fe1502b1b42b7d8cf76b1105c4
+timeCreated: 1505956630
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Wood/SM_Env_Wood_Construction_Wheel_04.prefab
+  uploadId: 735882

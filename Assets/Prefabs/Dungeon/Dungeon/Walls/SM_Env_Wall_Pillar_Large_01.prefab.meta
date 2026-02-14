@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bacc2e0b1e7eeb84d8b13c6f5e5a220b
+timeCreated: 1506042997
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102677
+  packageName: POLYGON Dungeons - Low Poly 3D Art by Synty
+  packageVersion: 1.9.5
+  assetPath: Assets/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Pillar_Large_01.prefab
+  uploadId: 735882
