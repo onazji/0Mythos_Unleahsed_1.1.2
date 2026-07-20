@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 9165270163092382011}
   - component: {fileID: -1035935378529992094}
   - component: {fileID: -1663720076111041238}
+  - component: {fileID: 2881377349492615354}
   m_Layer: 10
   m_Name: MinimalCharacter 1
   m_TagString: Player
@@ -711,6 +712,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5625d2005c28324fa516947ad127a61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Mythos.Unleashed.Runtime::PlayerPersistOnce
+--- !u!114 &2881377349492615354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167761570092420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1259273b79a8148b331b74d44d7d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mythos.Unleashed.Runtime::PersistentPlayerScenePlacement
 --- !u!1 &1749803945586204
 GameObject:
   m_ObjectHideFlags: 0
