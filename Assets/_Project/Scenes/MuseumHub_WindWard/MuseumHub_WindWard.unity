@@ -5864,6 +5864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 323899675}
   - component: {fileID: 323899676}
+  - component: {fileID: 323899677}
   m_Layer: 0
   m_Name: SuitWeaponInventory
   m_TagString: Untagged
@@ -5880,11 +5881,11 @@ Transform:
   m_GameObject: {fileID: 323899674}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 72.81253, y: 1.4152489, z: 0}
+  m_LocalPosition: {x: -5.308693, y: -3.1800003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2118239598}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &323899676
 MonoBehaviour:
@@ -5906,6 +5907,19 @@ MonoBehaviour:
   Persistent: 0
   ResetThisInventorySaveOnStart: 0
   DrawContentInInspector: 1
+--- !u!114 &323899677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323899674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b782ae0873f438648877e802acdcf033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mythos.Unleashed.Runtime::PersistentInventoryObject
+  persistenceId: SuitWeaponInventory
 --- !u!1 &326104203 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 118382, guid: eb8da86a580ca76489a03038ccb8b626,
@@ -16628,6 +16642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 820939800}
   - component: {fileID: 820939801}
+  - component: {fileID: 820939802}
   m_Layer: 0
   m_Name: SuitMainInventory
   m_TagString: Untagged
@@ -16644,11 +16659,11 @@ Transform:
   m_GameObject: {fileID: 820939799}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 72.81253, y: 1.4152489, z: 0}
+  m_LocalPosition: {x: -5.308693, y: -3.1800003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2118239598}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &820939801
 MonoBehaviour:
@@ -16693,6 +16708,19 @@ MonoBehaviour:
   Persistent: 0
   ResetThisInventorySaveOnStart: 0
   DrawContentInInspector: 1
+--- !u!114 &820939802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820939799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b782ae0873f438648877e802acdcf033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Mythos.Unleashed.Runtime::PersistentInventoryObject
+  persistenceId: SuitMainInventory
 --- !u!1001 &824566046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31568,7 +31596,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 91878719}
-  - {fileID: 2118239598}
   - {fileID: 105135217}
   - {fileID: 1618121292}
   - {fileID: 1747284129}
@@ -34787,39 +34814,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33604d1ec5375e3488891483b470a427, type: 3}
---- !u!1 &2118239597
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2118239598}
-  m_Layer: 0
-  m_Name: Inventories
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2118239598
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2118239597}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -70.62122, y: -6.095249, z: -9.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 820939800}
-  - {fileID: 323899675}
-  m_Father: {fileID: 1918232351}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2126642603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43188,6 +43182,8 @@ SceneRoots:
   - {fileID: 598334959}
   - {fileID: 1734572837}
   - {fileID: 883125241}
+  - {fileID: 820939800}
+  - {fileID: 323899675}
   - {fileID: 1918232351}
   - {fileID: 1266793822}
   - {fileID: 1235161569}
