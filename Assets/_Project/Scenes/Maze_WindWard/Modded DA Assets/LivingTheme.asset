@@ -1846,8 +1846,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1155.5728
     y: 392.07068
-    width: 299.95084
-    height: 46.02882
+    width: 340.4577
+    height: 50.027966
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -2417,7 +2417,7 @@ MonoBehaviour:
   caption: BOSS MARKER
   bounds:
     serializedVersion: 2
-    x: 1382.2689
+    x: 1384.0405
     y: -180.03171
     width: 120
     height: 50
@@ -2425,7 +2425,7 @@ MonoBehaviour:
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1217
+  zIndex: 1247
   inputPins: []
   outputPins:
   - {fileID: -5575020167269932704}
@@ -2707,8 +2707,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1785.7375
     y: 698.134
-    width: 415.1416
-    height: 46.92715
+    width: 460.10895
+    height: 50.027966
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -3779,7 +3779,7 @@ MonoBehaviour:
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
-  selected: 1
+  selected: 0
   zIndex: 1245
   inputPins: []
   outputPins:
@@ -4639,8 +4639,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1590.1335
     y: 786.7798
-    width: 252.3185
-    height: 46.92715
+    width: 278.5062
+    height: 50.027966
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -5022,7 +5022,7 @@ MonoBehaviour:
   indexCounter:
     index: 100
   topZIndex:
-    index: 1245
+    index: 1248
   nodes:
   - {fileID: -7613491649348855151}
   - {fileID: 3185520184091121584}
@@ -7108,8 +7108,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1599.2083
     y: 395.1467
-    width: 328.33032
-    height: 51.614136
+    width: 312.2899
+    height: 50.027966
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -8381,8 +8381,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 402.25018
     y: 385.75574
-    width: 473.52496
-    height: 49.00249
+    width: 490.27863
+    height: 50.027966
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -8453,21 +8453,21 @@ MonoBehaviour:
   bounds:
     serializedVersion: 2
     x: 1379.205
-    y: -89.08379
+    y: -90.855354
     width: 120
     height: 120
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
-  selected: 0
-  zIndex: 1169
+  selected: 1
+  zIndex: 1248
   inputPins:
   - {fileID: -5802279129980218727}
   outputPins:
   - {fileID: 5914525328918074276}
   graph: {fileID: 11400000}
   offset:
-    e00: 10
+    e00: 3
     e01: 0
     e02: 0
     e03: 0
@@ -8477,7 +8477,7 @@ MonoBehaviour:
     e13: 0
     e20: 0
     e21: 0
-    e22: 10
+    e22: 3
     e23: 0
     e30: 0
     e31: 0
