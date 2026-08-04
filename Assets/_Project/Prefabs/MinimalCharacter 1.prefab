@@ -631,12 +631,12 @@ MonoBehaviour:
   InventoryTransform: {fileID: 0}
   WeaponRotationMode: 0
   AutoPickItems:
-  - Item: {fileID: 11400000, guid: d8a5413d427069e4a8597776d082a123, type: 2}
+  - Item: {fileID: 11400000, guid: a18a37a1108ec284796ff33886f288ba, type: 2}
     Quantity: 1
   - Item: {fileID: 11400000, guid: 7d41860316fc2d648b1105937ffcae99, type: 2}
     Quantity: 99
   AutoPickOnlyIfMainInventoryIsEmpty: 0
-  AutoEquipWeaponOnStart: {fileID: 11400000, guid: d8a5413d427069e4a8597776d082a123,
+  AutoEquipWeaponOnStart: {fileID: 11400000, guid: a18a37a1108ec284796ff33886f288ba,
     type: 2}
   AutoEquipOnlyIfMainInventoryIsEmpty: 0
   AutoEquipOnlyIfEquipmentInventoryIsEmpty: 0
