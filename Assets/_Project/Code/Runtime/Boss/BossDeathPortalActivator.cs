@@ -5,7 +5,7 @@ namespace Mythos.Unleashed.Runtime
 {
     /// <summary>
     /// Watches a boss Health component and activates the return portal
-    /// once the boss reaches zero health.
+    /// and relic reward once the boss reaches zero health.
     /// </summary>
     [DisallowMultipleComponent]
     public sealed class BossDeathPortalActivator : MonoBehaviour
@@ -17,6 +17,10 @@ namespace Mythos.Unleashed.Runtime
         [Header("Return Portal")]
         [SerializeField]
         private GameObject returnPortal;
+
+        [Header("Relic Reward")]
+        [SerializeField]
+        private GameObject relicReward;
 
         [Header("Debug")]
         [SerializeField]
@@ -40,25 +44,45 @@ namespace Mythos.Unleashed.Runtime
                     "[BossDeathPortalActivator] Return Portal reference is missing.",
                     this
                 );
-
-                return;
+            }
+            else
+            {
+                returnPortal.SetActive(false);
             }
 
-            // Portal must begin unavailable while the boss is alive.
-            returnPortal.SetActive(false);
+            if (relicReward == null)
+            {
+                Debug.LogError(
+                    "[BossDeathPortalActivator] Relic Reward reference is missing.",
+                    this
+                );
+            }
+            else
+            {
+                relicReward.SetActive(false);
+            }
 
-            if (logStateChanges)
+            if (
+                logStateChanges &&
+                returnPortal != null &&
+                relicReward != null
+            )
             {
                 Debug.Log(
-                    "[BossDeathPortalActivator] Return portal initialized as inactive.",
-                    returnPortal
+                    "[BossDeathPortalActivator] Return portal and relic reward initialized as inactive.",
+                    this
                 );
             }
         }
 
         private void Update()
         {
-            if (_portalActivated || bossHealth == null || returnPortal == null)
+            if (
+                _portalActivated ||
+                bossHealth == null ||
+                returnPortal == null ||
+                relicReward == null
+            )
             {
                 return;
             }
@@ -68,19 +92,21 @@ namespace Mythos.Unleashed.Runtime
                 return;
             }
 
-            ActivatePortal();
+            ActivatePortalAndReward();
         }
 
-        private void ActivatePortal()
+        private void ActivatePortalAndReward()
         {
             _portalActivated = true;
+
             returnPortal.SetActive(true);
+            relicReward.SetActive(true);
 
             if (logStateChanges)
             {
                 Debug.Log(
-                    "[BossDeathPortalActivator] Boss defeated. Return portal activated.",
-                    returnPortal
+                    "[BossDeathPortalActivator] Boss defeated. Return portal and relic reward activated.",
+                    this
                 );
             }
         }
